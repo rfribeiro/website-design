@@ -15,6 +15,7 @@
 - [ ] [Glass effect](https://www.youtube.com/watch?v=O7WbVj5apxU)
 - [ ] [Glassmorphism Website](https://www.youtube.com/watch?v=zSg4_d6Qhzc&list=PLPyP3A7jzgoUoaAIPyvgZFWZr04BbBgih&index=50&t=3s)
 - [ ] [Parallax Moonlight](https://www.youtube.com/watch?v=TawH-AqHTXc)
+- [x] [Parallax Mountains](https://www.youtube.com/watch?v=I3gv-GRlYvs)
 - [ ] [Parallax Planets](https://www.youtube.com/watch?v=LMygHD-rnbA)
 - [ ] [YouTube Clone](https://www.youtube.com/watch?v=rhPSo4_Tgi0)
 - [ ] [Starbucks Landing Page](https://www.youtube.com/watch?v=91Q6RvKvd7o&list=PLPyP3A7jzgoUoaAIPyvgZFWZr04BbBgih&index=28)
