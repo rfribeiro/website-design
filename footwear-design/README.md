@@ -3,7 +3,11 @@
 The idea is to create a design for an footwear website using HTML/CSS and Javascript based on the design developed by Adrian Twarog using Figma on his [Youtube channel](https://www.youtube.com/watch?v=lf_vL-TNOEk)
 
 
+# 📸 Screenshot
 <img src="https://storage.googleapis.com/rfribeiro-websites-design/footwear-design/presentation.jpg" width="640">
+
+
+# 🎥 Movie
 
 <img src="https://storage.googleapis.com/rfribeiro-websites-design/footwear-design/presentation.gif" width="640">
 

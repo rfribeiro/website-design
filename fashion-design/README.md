@@ -3,7 +3,12 @@
 The idea is to create a design for an fashion website using HTML and CSS based on the design developed by Adrian Twarog using Figma on his [Youtube channel](https://www.youtube.com/watch?v=lf_vL-TNOEk)
 
 
+# 📸 Screenshot
+
 <img src="https://storage.googleapis.com/rfribeiro-websites-design/fashion-design/presentation.jpg" width="640">
+
+
+# 🎥 Movie
 <img src="https://storage.googleapis.com/rfribeiro-websites-design/fashion-design/presentation.gif" width="640">
 
 
