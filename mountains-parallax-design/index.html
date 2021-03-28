@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/96a4b10d55.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="zoom">
+        <img src="./images/mountain1.png" id="layer1">
+        <img src="./images/mountain2.png" id="layer2">
+        <img src="./images/text.png" id="text">
+    </section>
+    <section class="content">
+        <h2>Mountains Parallax Effect</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi magnam saepe, dolores voluptatibus architecto labore id quas ea quia. Deleniti explicabo maxime id, adipisci vel harum qui, officiis est eaque ullam accusantium officia, sit quisquam animi quae. Dolorem incidunt, quo minus quam impedit inventore quia a cupiditate eligendi eaque suscipit accusamus ipsum, voluptates ducimus error magni distinctio assumenda aut qui. Doloremque, enim. Aspernatur unde fugiat, repudiandae non eligendi iste sequi id aperiam facere quas neque nobis cum. Optio ex quae quas odio, quasi qui ipsa. Saepe repellendus libero fugiat eos rem ad itaque quis in odit impedit quia hic nemo soluta, unde, numquam ipsum reiciendis eaque sint vitae earum excepturi perspiciatis fugit repudiandae! Ad perferendis explicabo dolorem odit cumque ipsum, vel libero placeat perspiciatis, repellendus alias. Distinctio error illo vero aliquam ducimus repudiandae laudantium odit ipsum, adipisci delectus vel quidem ipsam, esse quas voluptatum at inventore eius pariatur accusamus! Excepturi.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum error vel eos architecto tenetur cumque neque reprehenderit laborum nobis, possimus odio quas tempora, aperiam sunt aliquam iste natus quam dolore rem. Amet eligendi corrupti itaque perspiciatis mollitia blanditiis ea inventore, sint exercitationem perferendis cumque consequatur voluptatum cum nam ipsa incidunt quos. Fugit reprehenderit suscipit ipsam repellendus corporis dignissimos sint! Esse architecto consequuntur ullam in, laudantium recusandae voluptatem minus nobis culpa ad iusto omnis iste laboriosam labore quae exercitationem numquam, tempore et? Aperiam sequi dolore, optio quos quae necessitatibus cupiditate laborum quam, aliquam a nihil molestias fuga quas excepturi beatae corrupti totam facilis ab velit dolor perspiciatis magnam sint! At laudantium optio hic, sapiente voluptatibus similique libero adipisci laborum expedita ea id voluptate accusamus culpa deleniti vel eum atque? Commodi consequuntur nobis delectus nam facilis explicabo id vero quis debitis officiis ab quaerat, harum odio. Dolores harum cupiditate tenetur, repellat quod porro quo corrupti eius quos magnam reiciendis veritatis eligendi ad quasi aspernatur ipsa quam obcaecati vero nulla alias quia! Magni culpa cumque eum voluptas, nesciunt eius harum explicabo dicta quod, distinctio inventore voluptatibus qui, provident commodi alias voluptatum! Cupiditate nisi illum facere pariatur reprehenderit nulla qui consequatur amet quasi modi!</p>
+    </section>
+    <script type="text/javascript">
+        var layer1 = document.getElementById('layer1')
+        scroll = window.pageYOffset;
+        document.addEventListener('scroll', function(e) {
+            var offset = window.pageYOffset;
+            scroll = offset;
+            layer1.style.width = (100 + scroll/5) + '%';
+        });
+
+        var layer2 = document.getElementById('layer2')
+        scroll = window.pageYOffset;
+        document.addEventListener('scroll', function(e) {
+            var offset = window.pageYOffset;
+            scroll = offset;
+            layer2.style.width = (100 + scroll/5) + '%';
+            layer2.style.left = (scroll/50) + '%';
+        });
+
+        var text = document.getElementById('text')
+        scroll = window.pageYOffset;
+        document.addEventListener('scroll', function(e) {
+            var offset = window.pageYOffset;
+            scroll = offset;
+            text.style.top = - scroll/5 + '%';
+            console.log(text.style.top);
+        });
+    </script>
+</body>
+
+</html>
