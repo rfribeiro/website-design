@@ -1,7 +1,7 @@
 # Website Designs
 
 - [x] [Automotive]()
-- [x] [Automotive with car image slider](https://www.youtube.com/watch?v=DG_8z5FPsi8&list=PLPyP3A7jzgoUoaAIPyvgZFWZr04BbBgih&index=47)
+- [ ] [Automotive with car image slider](https://www.youtube.com/watch?v=DG_8z5FPsi8&list=PLPyP3A7jzgoUoaAIPyvgZFWZr04BbBgih&index=47)
 - [x] [Fashion]()
 - [x] [Footwear]()
 - [x] [Legal]()
@@ -14,7 +14,7 @@
 - [ ] [Spotify inspired](https://www.youtube.com/watch?v=RZ-Oe4_Ew7g)
 - [ ] [Glass effect](https://www.youtube.com/watch?v=O7WbVj5apxU)
 - [ ] [Glassmorphism Website](https://www.youtube.com/watch?v=zSg4_d6Qhzc&list=PLPyP3A7jzgoUoaAIPyvgZFWZr04BbBgih&index=50&t=3s)
-- [ ] [Parallax Moonlight](https://www.youtube.com/watch?v=TawH-AqHTXc)
+- [x] [Parallax Moonlight](https://www.youtube.com/watch?v=TawH-AqHTXc)
 - [x] [Parallax Mountains](https://www.youtube.com/watch?v=I3gv-GRlYvs)
 - [ ] [Parallax Planets](https://www.youtube.com/watch?v=LMygHD-rnbA)
 - [ ] [YouTube Clone](https://www.youtube.com/watch?v=rhPSo4_Tgi0)
@@ -30,7 +30,7 @@
 - [ ] [Administration Dashboard](https://www.youtube.com/watch?v=3FJgGw_ESEc&list=PLPyP3A7jzgoUoaAIPyvgZFWZr04BbBgih&index=43)
 - [ ] [Full ecommerce webpage](https://www.youtube.com/watch?v=z7I38dXlrUs&list=PLPyP3A7jzgoUoaAIPyvgZFWZr04BbBgih&index=44)
 
-### TAlVEZ no Basic java script
+### Talvez no Basic java script
 - [ ] [Dinamic background image website](https://www.youtube.com/watch?v=wYuQM7__D1M&list=PLPyP3A7jzgoUoaAIPyvgZFWZr04BbBgih&index=14)
 - [ ] [Animated Input Form](https://www.youtube.com/watch?v=T76bbMVMX6M&list=PLPyP3A7jzgoUoaAIPyvgZFWZr04BbBgih&index=13)
 - [ ] [Make Testimonial Slider](https://www.youtube.com/watch?v=fzgLWi40-2g&list=PLPyP3A7jzgoUoaAIPyvgZFWZr04BbBgih&index=15)
