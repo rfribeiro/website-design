@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moon Light Parallax Effects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/96a4b10d55.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section>
+        <img src="./images/bg.jpg" id="bg">
+        <img src="./images/moon.png" id="moon">
+        <img src="./images/mountain.png" id="mountain">
+        <img src="./images/road.png" id="road">
+        <div id="text-container">
+            <h2 id="text">Moon Light</h2>
+            <h3 id="text2">Parallax effect on scroll</h3>
+        </div>
+    </section>
+    <div class="content">
+        <h2>Parallax effect on scroll</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nesciunt a perspiciatis ut, facere officia et ab dicta autem incidunt expedita, culpa accusantium harum repellendus voluptate corporis. Similique eaque consectetur doloremque non unde autem suscipit natus assumenda quibusdam? Nam reprehenderit eligendi temporibus architecto accusantium odio enim expedita quo, ea aliquam reiciendis incidunt possimus corporis provident nostrum fuga dolor mollitia odit ducimus totam dolorem inventore saepe porro? Recusandae nulla non, ullam minima atque iste! Saepe autem facilis, fugit sint rem quisquam nostrum doloremque nesciunt harum! Obcaecati at deserunt culpa corrupti a esse reprehenderit perferendis exercitationem quaerat, ratione ex delectus architecto voluptatibus?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nostrum nobis? Fugit ducimus alias minima vel ea itaque sed earum architecto eligendi voluptate porro mollitia, reprehenderit enim molestiae asperiores blanditiis vitae ex, rem doloribus unde nihil? Reprehenderit quos ullam repellendus sit sed magnam numquam delectus. Nesciunt id quam aliquam voluptatem officiis sit! Reprehenderit asperiores et tempore vero ducimus hic facilis consectetur ratione cumque, blanditiis sequi quos itaque, praesentium numquam deleniti officiis, vitae recusandae quia ipsam laborum ab nam. Temporibus autem facere, perspiciatis voluptatibus ea neque fuga accusamus unde sequi tempore aliquam consequatur et impedit alias sint, voluptatum repudiandae rem eum perferendis suscipit laborum aspernatur architecto. Quam veniam at, ipsa saepe voluptate qui? Commodi eligendi et debitis deleniti nobis repellat voluptatibus ipsam neque, quaerat saepe officiis, explicabo, id impedit nemo cupiditate nihil voluptatum architecto aspernatur consequuntur laudantium officia reiciendis beatae nulla nesciunt? Quae ipsum mollitia aut sapiente iste esse, quidem cum ex minus aperiam. Odit, officia! Voluptates sint molestias voluptas adipisci eum molestiae voluptatum illo, placeat labore, qui exercitationem, quas asperiores ea a nisi quae dolorum ut nesciunt? Illum, eos eligendi inventore, impedit libero, vel sequi consequatur excepturi dolorem porro vitae. Voluptas, quo voluptates. Impedit illum, officiis natus commodi dolor aliquam.</p>
+
+    </div>
+
+    <script type="text/javascript">
+    let bg = document.getElementById("bg");
+    let moon = document.getElementById("moon");
+    let mountain = document.getElementById("mountain");
+    let road = document.getElementById("road");
+    let text = document.getElementById("text-container");
+
+    window.addEventListener("scroll", function() {
+        var value = window.scrollY;
+
+        bg.style.top = value * 0.5 + 'px';
+        moon.style.left = -value * 0.5 + 'px';
+        mountain.style.top = -value * 0.15 + 'px';
+        road.style.top = value * 0.15 + 'px';
+        text.style.top = value * 1 + 'px';
+    })
+    </script>
+</body>
+
+</html>
