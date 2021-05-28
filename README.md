@@ -17,8 +17,8 @@
 - [x] [Parallax Moonlight](./moolight-parallax-design)
 - [x] [Parallax Mountains](./mountains-parallax-design)
 - [x] [Parallax Planets](./planets-parallax-design)
-- [ ] [YouTube Clone](https://www.youtube.com/watch?v=rhPSo4_Tgi0)
-- [ ] [Pepsi Landing Page](https://www.youtube.com/watch?v=s_z5laE4KTw)
+- [x] [YouTube Clone](https://www.youtube.com/watch?v=rhPSo4_Tgi0)
+- [x] [Pepsi Landing Page](https://www.youtube.com/watch?v=s_z5laE4KTw)
 - [x] [Starbucks Landing Page](https://www.youtube.com/watch?v=91Q6RvKvd7o)
 - [ ] [Food Service](https://www.youtube.com/watch?v=ac5nmWOkBEY)
 - [ ] [Rockeatseat Banco Inter new design]()
@@ -34,4 +34,3 @@
 ### Talvez no Basic java script
 - [ ] [Dinamic background image website](https://www.youtube.com/watch?v=wYuQM7__D1M)
 - [ ] [Animated Input Form](https://www.youtube.com/watch?v=T76bbMVMX6M)
-- [ ] [Make Testimonial Slider](https://www.youtube.com/watch?v=fzgLWi40-2g)
