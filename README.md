@@ -29,6 +29,7 @@
 - [ ] [Image slider With Animation Using HTML And CSS with Zoom](https://www.youtube.com/watch?v=REOOucJcMU8)
 - [ ] [Administration Dashboard](https://www.youtube.com/watch?v=OJEQaVT45XA)
 - [ ] [Administration Dashboard](https://www.youtube.com/watch?v=3FJgGw_ESEc)
+- [ ] [Responsive Admin Dashboard](https://www.youtube.com/watch?v=gdA1G5h-D80)
 - [ ] [Full ecommerce webpage](https://www.youtube.com/watch?v=z7I38dXlrUs)
 
 ### Talvez no Basic java script
